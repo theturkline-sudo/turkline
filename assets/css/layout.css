@@ -12,6 +12,49 @@
     padding-block: var(--spacing-section);
 }
 
+/* Body Flex for Sticky Footer */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: var(--primary-blue);
+    color: var(--text-light);
+    padding: 8px 0;
+    font-size: 0.9rem;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar a {
+    color: var(--text-light);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.top-bar-social {
+    display: flex;
+    gap: 15px;
+}
+
+.top-bar-social a:hover,
+.top-bar a:hover {
+    color: var(--accent-gray);
+}
+
 /* Header */
 .site-header {
     position: sticky;

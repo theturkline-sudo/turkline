@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Turk Line Engineering</title>
     <meta name="description" content="Contact Turk Line Engineering for inquiries or to request a site visit.">
+    <link rel="canonical" href="https://turk-line.com/en/contact.html">
+    <meta property="og:title" content="Contact Us | Turk Line Engineering">
+    <meta property="og:description" content="Contact Turk Line Engineering for inquiries or to request a site visit.">
+    <meta property="og:url" content="https://turk-line.com/en/contact.html">
+    <meta property="og:type" content="website">
     <link rel="stylesheet" href="../assets/css/variables.css">
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/layout.css">
@@ -13,6 +18,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-contact">
+                <a href="https://wa.me/201000000000" target="_blank" rel="noopener">
+                    <span>📱</span> +20 100 000 0000
+                </a>
+            </div>
+            <div class="top-bar-social">
+                <a href="#" target="_blank" aria-label="Facebook">Facebook</a>
+                <a href="#" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+            </div>
+        </div>
+    </div>
     <header class="site-header">
         <div class="container">
             <a href="index.html" class="logo-container">
@@ -30,7 +48,7 @@
             </nav>
             <div class="header-actions">
                 <button id="theme-toggle" class="icon-btn">🌙</button>
-                <a href="#" id="lang-toggle" class="badge">عربي</a>
+                <a href="../ar/contact.html" id="lang-toggle" class="badge">عربي</a>
                 <div class="menu-toggle"><span></span><span></span><span></span></div>
             </div>
         </div>
@@ -40,14 +58,54 @@
         <section class="section bg-alt text-center" style="padding-top: var(--spacing-xxl);">
             <div class="container reveal fade-in">
                 <h1 class="text-primary">Contact Us</h1>
-                <p class="text-muted">Contact Turk Line Engineering for inquiries or to request a site visit.</p>
+                <p class="text-muted" style="max-width: 700px; margin: 15px auto 0;">Contact Turk Line Engineering for inquiries or to request a site visit.</p>
             </div>
         </section>
         <section class="section">
             <div class="container">
-                <div class="card reveal slide-up" style="padding: var(--spacing-xxl); text-align: center;">
-                    <h2 class="text-primary">Content Under Development</h2>
-                    <p class="text-muted">We are actively adding detailed content to this page.</p>
+                <div class="card reveal slide-up" style="padding: var(--spacing-xxl); text-align: center; border: 1px solid var(--border-color); box-shadow: var(--shadow-sm);">
+                    
+    <div class="grid grid-2" style="text-align: left; align-items: start;">
+        <div style="padding-right: 20px;">
+            <h2 class="text-primary" style="margin-bottom: 20px; font-size: 2.2rem;">Get in Touch</h2>
+            <p style="margin-bottom: 30px; line-height: 1.6; font-size: 1.1rem;">Have a project in mind? Reach out to our engineering team for consultations, site visits, or general inquiries.</p>
+            
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div style="font-size: 1.5rem;">📞</div>
+                    <div>
+                        <strong>Phone / WhatsApp</strong><br>
+                        <a href="https://wa.me/201000000000" style="color: var(--primary-blue); text-decoration: none;">+20 100 000 0000</a>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div style="font-size: 1.5rem;">📧</div>
+                    <div>
+                        <strong>Email</strong><br>
+                        <a href="mailto:info@turk-line.com" style="color: var(--primary-blue); text-decoration: none;">info@turk-line.com</a>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div style="font-size: 1.5rem;">🏢</div>
+                    <div>
+                        <strong>Address</strong><br>
+                        <span>Industrial Zone, Cairo, Egypt</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <form action="#" method="POST" class="card bg-main" style="display: flex; flex-direction: column; gap: 20px; padding: 40px; box-shadow: var(--shadow-md);">
+                <h3 style="margin-bottom: 10px;">Send us a message</h3>
+                <input type="text" placeholder="Your Name" required style="padding: 12px; border: 1px solid var(--border-color); border-radius: var(--radius-sm); font-family: inherit;">
+                <input type="email" placeholder="Your Email" required style="padding: 12px; border: 1px solid var(--border-color); border-radius: var(--radius-sm); font-family: inherit;">
+                <input type="text" placeholder="Subject" required style="padding: 12px; border: 1px solid var(--border-color); border-radius: var(--radius-sm); font-family: inherit;">
+                <textarea placeholder="Your Message" rows="5" required style="padding: 12px; border: 1px solid var(--border-color); border-radius: var(--radius-sm); font-family: inherit; resize: vertical;"></textarea>
+                <button type="submit" class="btn btn-primary" style="padding: 12px; font-weight: bold; border: none; cursor: pointer;">Send Message</button>
+            </form>
+        </div>
+    </div>
+    
                 </div>
             </div>
         </section>
